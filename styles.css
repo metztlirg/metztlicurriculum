@@ -1,0 +1,102 @@
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box; /*siempre poner en las hojas de estilo*/
+}
+.principal{
+	color: black;
+	background-color: mistyrose;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	border: 5px solid #5D6063;
+	border-radius: 5px;
+
+	width: 1000px;
+	box-sizing: none;
+	margin: 0 auto;
+}
+.segunda{
+	
+	text-align: justify;
+
+	width: 700px;
+	box-sizing: none;
+	margin: 0 auto;
+	
+}
+
+.lista{
+	
+	text-align: justify;
+
+	width: 250px;
+	box-sizing: none;
+	margin: 0 auto;
+	
+}
+
+
+h1{
+	color: slategray;
+	margin: 50px;
+}
+
+h2{
+	color: grey;
+}
+
+.button{
+	color:black;
+	background-color:mediumorchid ;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #5D6063;
+	border-radius: 5px;
+
+	width: 150px;
+	margin: 10px auto;
+}
+
+.separador{
+	background-color: white;
+	padding: 5px;
+	border: 2px solid palevioletred;
+	border-radius: 10px;
+
+	width: 900px;
+	margin: 5px auto;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+	color:purple;
+}
+
+a:hover{
+	color:grey;
+	text-decoration: underline;
+}
+
+a:active{
+	color: red;
+}
+
+.button:hover, .button:visited:hover{
+	color:#fff;
+	background-color: thistle;
+}
+
+.button:active, .botton:visited:active{
+	color:#FFF;
+	background-color: plum;
+}
+
+
+
