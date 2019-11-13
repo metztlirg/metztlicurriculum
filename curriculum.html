@@ -1,84 +1,118 @@
 <!DOCTYPE html>
-<html>
 
-	<head>
-		<title>Curriculum Vitae</title>
-		<meta charset="UTF-8">
-		<link rel='stylesheet' href='styles.css'/>
-		<!--- Metadata goes here-->
-	</head>
-	<body>
-		<div class="principal">
-		<h1> CURRICULUM VITAE </h1>
-		<hr>
-		<h2>Datos Personales </h2>
-		<p>NOMBRE: Metztli Ramírez González. <br/>
-		EDAD: 20 años <br/>
-		CONTACTO: metztli.ramirezg@gmail.com <br/>
-			TEL.  	9531490965</p>
-		<!--- content goes here -->
-		<div class="separador"></div>
-		<h2>Datos Escolares </h2>
-		<p>UNIVERSIDAD: Universidad Tecnológica de la Mixteca <br/>
-		CARRERA: Ingeniería en Computación. <br/>
-		SEMESTRE: Quinto<br/>
-		MATRICULA: 2017020162</p>
-		
-		<div class="separador"></div>
-		
-		<h2>Formación Académica</h2>
-		<div class="segunda">
-		<br/>
-		<ul>
-			<li> Universidad Tecnológica de la Mixteca. (2017 - actualidad), <em> Huajuapan de León, Oax </em></li>
-			<li>Preparatoria Número 3, UABJO. (2014 - 2017), <em> Huajuapan de León, Oax </em></li>
-			<li>Escuela Secundaria Técnica No.189 (2011 - 2014), <em> Villa de Tamazulápam del Progreso, Oax </em></li>
-			<li>Escuela Urbana Estatal "Gregorio Torres Quintero".(2005- 2011)<em> Villa de Tamazulápam del Progreso, Oax </em></li>
-		</ul>
-		</div>
-		<br>
-		<div class="separador"></div>
-		<h2>Herramientas tecnológicas</h2>
-		<div class="segunda">
-		<strong>Lenguajes de Programación</strong>
-		<ol>
-			<li>C</li>
-			<li>C++</li>
-			<li>Java</li>
-			<li>Python</li>
-			<li>MATLAB</li>
-			<li>VHDL</li>
-			<li>Ensamblador</li>
-		</ol>
-		 <strong>Manejo de Base de datos </strong>
-			<ul>
-			<li><p> SQL</p></li>
-		</ul>	
-		 <strong>Manejo completo del paquete Office.</strong>
-		 
-		</div>
-		<div class="separador"></div>
-		 <h2>Entretenimieto</h2>
-		<div class="segunda">
-		<ul>
-			<li>Lectura de novelas, monografías, ensayos, cuentos y escritos de distintos géneros y autores varios.</li>
-			<li>Apreciación de largometrajes, animaciones y diversos materiales de entretenimiento audivisual.</li>
-			<li>Apreciación musical.</li>
-			<li>Convivencia Familiar.</li>
-		</ul>
-		</div>
-		<div class="separador"></div>
-		<div class="button">
-		<h2><a href='deportes.html'>Deportes</a></h2>
-		</div>
-		<div class="button">
-		<h2><a href='cine.html'>Cine</a></h2>
-		</div>
-		<!--
-		<a class="button" href='deportes.html'>Deportes</a>
-		<a class="button" href='cine.html'>Cine</a> -->
-	</div>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head> 
+  <body>
+    <div class="main">
+      <div class="encabezado">
+        
+        <div class="titulo">
+          <div>
+            <h1>CURRICULUM VITAE</h1>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <ul class="menu1">
+          <div><li><a href="#uno">Datos Escolares</a></li></div>
+          <div><li><a href="#dos">Formacion Académica</a></li></div>
+          <div><li><a href="#tres">Tecnologías</a></li></div>
+          <div><li><a href="#cuatro">Entretenimiento</a></li></div>
+          <div><li><a href="#cinco">Otros</a></li></div>
+        </ul>
+      </div>
+      <div class="contenido">
+        
+          <div class='b1'>
+          <h2> Datos Personales </h2>
+          <p>NOMBRE: Metztli Ramírez González. <br/>
+          EDAD: 20 años <br/>
+          CONTACTO: metztli.ramirezg@gmail.com <br/>
+          TEL.    9531490965</p>
+          <div class='photo'>
+          <picture>
+            <source media='(max-width: 400px)'
+                    srcset="images/serena.png"/>
+            <img src="images/yo.png"/>
+          </picture>
+        </div>
+          
+          </div>
+   <div class='b2'>
+        <div class='medio'>
+          
+          <h2 id="uno">Datos Escolares </h2>
+        <p>UNIVERSIDAD: Universidad Tecnológica de la Mixteca <br/>
+        CARRERA: Ingeniería en Computación. <br/>
+        SEMESTRE: Quinto<br/>
+        MATRICULA: 2017020162</p>
+         </div> 
+         <div class="separador"></div>
+        <div class='medio'>
+          
+          <h2 id="dos">Formación Académica</h2>
+          <div class="segunda">
+          <br/>
+          <ol>
+            <li> Universidad Tecnológica de la Mixteca. (2017 - actualidad), <em> Huajuapan de León, Oax </em></li>
+             <li>Preparatoria Número 3, UABJO. (2014 - 2017), <em> Huajuapan de León, Oax </em></li>
+            <li>Escuela Secundaria Técnica No.189 (2011 - 2014), <em> Villa de Tamazulápam del Progreso, Oax </em></li>
+            <li>Escuela Urbana Estatal "Gregorio Torres Quintero".(2005- 2011)<em> Villa de Tamazulápam del Progreso, Oax </em></li>
+          </ol>
+          </div>
+        </div>
+        <div class="separador"></div>
+        <div class='medio'>
+        
+          <h2 id="tres">Herramientas tecnológicas</h2>
+          <div class="segunda">
+            <strong>Lenguajes de Programación</strong>
+            <ol>
+             <li>C</li>
+             <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>MATLAB</li>
+            <li>VHDL</li>
+            <li>Ensamblador</li>
+          </ol>
+          <strong>Manejo de Base de datos </strong>
+          <ul>
+            <li><p> SQL</p></li>
+          </ul> 
+          <strong>Manejo completo del paquete Office.</strong>
+     
+          </div>
+        </div>
+      <div class="separador"></div>
+          <h2 id="cuatro">Entretenimieto</h2>
+          
+            <div class="segunda">
+              <ol>
+                <li>Lectura de novelas, monografías, ensayos, cuentos y escritos de distintos géneros y autores varios.</li>
+                <li>Apreciación de largometrajes, animaciones y diversos materiales de entretenimiento audivisual.</li>
+                <li>Apreciación musical.</li>
+                <li>Convivencia Familiar.</li>
+                <br/>
+              </ol>
+            </div>
+  </div>
+       
+      </div>
+      <div class="footer">
+        <h2 id="cinco"></h2>
 
-
+    <div class="button">
+    <h2><a href='deportes.html'>Deportes</a></h2>
+    </div>
+    <div class="button">
+    <h2><a href='cine.html'>Cine</a></h2>
+    </div>
+      </div>
+    </div>
+  </body>
 </html>
